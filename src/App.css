@@ -1,38 +1,51 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background:#999;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding-top: 30px;
+  width: 1000px;
+  min-height: 300px;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  background: url(https://sun1-30.userapi.com/XFTtF8VCRxUvvwV5vQKNMByo0L8bs6Fywaa6hQ/gHA9GjuGmUw.jpg?ava=1);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top {
+  width: 30%;
+  font-size: 30px;
+  font-family: serif;
+  color: bisque;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 97%;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  background:#ddd;
+  padding: 15px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.half input { width: 48%; }
+
